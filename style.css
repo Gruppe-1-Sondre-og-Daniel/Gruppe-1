@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.title{
+  margin-top: 20%;
+  text-align: center;
+}
+
+
+/* Dropdown knappen */
+.dropbtn {
+  background-color: #72DEFF;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Posisjonen til dropdown menyen */
+.dropdown {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+/* Dropdown innholdet */
+.dropdown-innhold {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Linkene som er i dropdown menyen  */
+.dropdown-innhold a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* bytter farge på den linken man holder musen over*/
+.dropdown-innhold a:hover {background-color: #ddd;}
+
+/* viser dropdown menyen når musen er over */
+.dropdown:hover .dropdown-innhold {display: block;}
+
+/* bytter farge på dropdown knappen når musen er over */
+.dropdown:hover .dropbtn {background-color: #5DB3CD;}
