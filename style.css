@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+body{
+  background-image: url(https://i.imgur.com/rIgX9wA.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
 .title{
   margin-top: 20%;
   text-align: center;
