@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 body{
-  <!-- setter standard font family når man tar det inn i body -->
   font-family: source-sans-pro;
   background-image: url(https://i.imgur.com/rIgX9wA.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  font-style: normal;
 }
 
 .title{
